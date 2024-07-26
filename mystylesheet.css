@@ -21,7 +21,7 @@ body {
 
 body {
     background: #000000;
-    font-family: "Gill Sans", sans-serif;
+    font-family: "Impact", "Gill Sans", sans-serif;
     font-weight: 400;
 }
 
@@ -71,7 +71,7 @@ h1.heading {
     font-size: 30px;
     font-weight: 400;
     line-height: 75px;
-    max-width: 500px;
+    max-width: 600px;
     margin: 0 auto 2em;
     position: relative;
     /*text-transform: uppercase;
