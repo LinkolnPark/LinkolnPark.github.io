@@ -17,8 +17,8 @@ html,
 body {
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    height: 100%;
-    width: 100%;
+    height: 99%;
+    width: 99%;
 }
 
 body {
@@ -29,8 +29,8 @@ body {
 
 .buttons {
     display: table;
-    height: 100%;
-    width: 100%;
+    height: 99%;
+    width: 99%;
 }
 
 .container {
