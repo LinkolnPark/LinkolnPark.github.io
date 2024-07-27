@@ -48,6 +48,14 @@ body {
     max-width: 90%;
 }
 
+.h2sections {
+    font-size: clamp(15px, 3vw, 22px);
+    color: #ff0000;
+    font-weight: 900;
+    font-family: Verdana;
+    max-width: 90%;
+}
+
 /* ESCALADO RELATIVO SEGUN CIERTOS ANCHOS DE VENTANA ESPECIFICOS 
 @media (min-width: 450px) {
     h1.heading {
@@ -80,7 +88,7 @@ body {
     max-width: 80%;
     /*margin: 0 auto 2em;*/
     /*margin: 20px;*/
-    margin-top: 70px;
+    margin-top: 30px;
     margin-bottom: 70px;
     /*max-width: calc(100% - 150px);*/
     position: relative;
