@@ -1,4 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,100,900);
+@import url(https://fonts.googleapis.com/css?family=Anton:400);
+@import url(https://fonts.googleapis.com/css?family=Impact:400);
 
 * {
     -moz-box-sizing: inherit;
@@ -21,7 +23,7 @@ body {
 
 body {
     background: #000000;
-    font-family: "Impact", "Gill Sans", sans-serif;
+    font-family: "Anton", "Impact", "Gill Sans", sans-serif;
     font-weight: 400;
 }
 
@@ -68,10 +70,12 @@ h1.heading {
     color: #ff0000;
     cursor: pointer;
     display: block;
-    font-size: 30px;
+    /*font-size: 30px;*/
+    font-size: clamp(10px, 4vw, 40px);
     font-weight: 400;
     line-height: 75px;
-    max-width: 600px;
+    /*max-width: 600px;*/
+    max-width: 80%;
     margin: 0 auto 2em;
     position: relative;
     /*text-transform: uppercase;
