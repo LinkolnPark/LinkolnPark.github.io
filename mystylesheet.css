@@ -41,11 +41,11 @@ body {
 }
 
 .h1subtitle {
-    font-size: clamp(15px, 4vw, 30px);
+    font-size: clamp(15px, 5vw, 30px);
     color: #ff0000;
     font-weight: 900;
     font-family: Verdana;
-    margin: 0 0 0.5em;
+    max-width: 90%;
 }
 
 /* ESCALADO RELATIVO SEGUN CIERTOS ANCHOS DE VENTANA ESPECIFICOS 
@@ -78,7 +78,11 @@ body {
     line-height: 75px;
     /*max-width: 600px;*/
     max-width: 80%;
-    margin: 0 auto 2em;
+    /*margin: 0 auto 2em;*/
+    /*margin: 20px;*/
+    margin-top: 70px;
+    margin-bottom: 70px;
+    /*max-width: calc(100% - 150px);*/
     position: relative;
     /*text-transform: uppercase;
     vertical-align: middle;*/
