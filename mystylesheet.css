@@ -23,7 +23,7 @@ body {
 
 body {
     background: #000000;
-    font-family: "Anton", "Impact", "Gill Sans", sans-serif;
+    font-family: "Anton", "Impact", Verdana;
     font-weight: 400;
 }
 
@@ -40,13 +40,15 @@ body {
     vertical-align: middle;
 }
 
-h1.heading {
-    color: #fff;
-    font-size: 1.25em;
+.h1subtitle {
+    font-size: clamp(15px, 4vw, 30px);
+    color: #ff0000;
     font-weight: 900;
+    font-family: Verdana;
     margin: 0 0 0.5em;
 }
 
+/* ESCALADO RELATIVO SEGUN CIERTOS ANCHOS DE VENTANA ESPECIFICOS 
 @media (min-width: 450px) {
     h1.heading {
         font-size: 1.75em;
@@ -64,14 +66,14 @@ h1.heading {
         font-size: 4.25em;
         margin: 0 0 0.5em;
     }
-}
+}*/
 
 .btnfos {
     color: #ff0000;
     cursor: pointer;
     display: block;
     /*font-size: 30px;*/
-    font-size: clamp(10px, 4vw, 40px);
+    font-size: clamp(15px, 6vw, 40px);
     font-weight: 400;
     line-height: 75px;
     /*max-width: 600px;*/
