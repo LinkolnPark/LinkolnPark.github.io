@@ -92,6 +92,8 @@ body {
     line-height: 1;
     padding-bottom: 15px;
     padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
     /*margin: 0 auto 2em;*/
     /*margin: 20px;*/
     margin-top: 20px;
